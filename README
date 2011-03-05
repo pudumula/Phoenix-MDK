@@ -25,6 +25,11 @@ Phoenix-MDK contains an ATMega32 microcontroller with a 8-MHz crystal. It conata
 Below command makes the bootloader hex file for ATMega32 microcontrollers with 8MHz crystal.
 make atmega32
 
+
+Pre-Compiled files:
+If you don't want to compile and generate the hex files, you can use the below hex files
+Bootloader_atmega32.hex - Bootloader hex file with 8MHz crystal
+
 Credits:
 1)Initial bootloader was taken from - http://wiki.edwindertien.nl/doku.php?id=software:bootloaders 
 2)Pramode CE : Support for testing bootloader and also the python script to load hex into flash memory.
