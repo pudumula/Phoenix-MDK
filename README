@@ -1,15 +1,34 @@
 Phoenix-MDK Code
 ================
+This project contains the softwares needed for using Phoenix-MDK. Find more about Phoenix-MDK from - http://www.iuac.res.in/~elab/phoenix/PMDK/index.html
 
-This project contains the softwares needed for using Phoenix-MDK. Find more about Phoenix-MDK from 
 
 Contents:
+1) Bootloader for Phoenix-MDK
+2) Python script for loading hex file using AVRDUDE.
+
+
+Ingredients:
+For compiling the bootloader and also for using Phoenix-MDK following are needed
+
+1) gcc-avr -> Cross-Compiler
+2) avr-libc -> AVR libraries
+3) avrdude -> Tool for flashing the AVR microcontrollers
+4) AVR programmer -> Hardware for transfering 
+5) python -> Flashing code using bootloader and for making life easy 
+6) Phoenix-MDK -> Phoenix Microcontroller Development Kit
 
 
 Usage:
 Phoenix-MDK contains an ATMega32 microcontroller with a 8-MHz crystal. It conatains a bootloader for loading the hex file into its flash memory through USB. 
 
-Credits:
-Ajith BP   : Phoenix-MDK project owner
-Pramode CE : Support for testing bootloader and also the python script to load hex into flash memory.
 
+Credits:
+1)Initial bootloader was taken from - http://wiki.edwindertien.nl/doku.php?id=software:bootloaders 
+2)Pramode CE : Support for testing bootloader and also the python script to load hex into flash memory.
+3)Ajith BP   : Phoenix-MDK project owner
+
+
+More details available from
+Jeffrey Antony
+www.jeffrey.co.in
