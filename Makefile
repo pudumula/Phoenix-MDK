@@ -17,7 +17,7 @@
 # etc...
 
 # program name should not be changed...
-PROGRAM    = ATmegaBOOT_168
+PROGRAM    = Bootloader
 
 # enter the parameters for the avrdude isp tool
 ISPTOOL	   = avrisp2
