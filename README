@@ -3,8 +3,11 @@ Phoenix-MDK Code
 
 This project contains the softwares needed for using Phoenix-MDK. Find more about Phoenix-MDK from 
 
+Contents:
+
+
 Usage:
-Phoenix-MDK contains an ATMega32 microcontroller with a 8-MHz crystal. It conatains a bootloader for loading the hex file into its flash memory.
+Phoenix-MDK contains an ATMega32 microcontroller with a 8-MHz crystal. It conatains a bootloader for loading the hex file into its flash memory through USB. 
 
 Credits:
 Ajith BP   : Phoenix-MDK project owner
