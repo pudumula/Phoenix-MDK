@@ -20,8 +20,10 @@ For compiling the bootloader and also for using Phoenix-MDK following are needed
 
 
 Usage:
-Phoenix-MDK contains an ATMega32 microcontroller with a 8-MHz crystal. It conatains a bootloader for loading the hex file into its flash memory through USB. 
+Phoenix-MDK contains an ATMega32 microcontroller with a 8-MHz crystal. It conatains a bootloader for loading the hex file into its flash memory through USB. If you need to compile the bootloader code for another clock frequency, don't forget to modify the makefile. 
 
+Below command makes the bootloader hex file for ATMega32 microcontrollers with 8MHz crystal.
+make atmega32
 
 Credits:
 1)Initial bootloader was taken from - http://wiki.edwindertien.nl/doku.php?id=software:bootloaders 
