@@ -1,0 +1,9 @@
+ToDo
+----
+
+1) Add description about compiling and flashing bootloader in readme file.
+2) Add credits and license information in readme file
+3) Add license file
+4) Create schemtaics and PCB layout using gEDA
+5) Modify makefile to generate hex for ATMega16
+6) Modify code to use 512KB like optiboot
